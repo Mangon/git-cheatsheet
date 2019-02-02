@@ -36,9 +36,9 @@ function showDocs(doc, cmd) {
   if (doc) {
     $info.find('.cmd').html('<span>' + cmd + '</span>');
     $info.find('.doc').html(doc);
-    $info.slideDown()
+    $info.slideDown();
   } else {
-    $info.hide()
+    // $info.hide()
   }
 }
 
